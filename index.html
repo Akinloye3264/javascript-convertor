@@ -1,0 +1,39 @@
+<!-- /* currency convertor version 1
+welcome to currency convertor
+from currency
+to currency text field
+then print the result when convert is clicked  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency convertor</title>
+    <link rel="icon" href="currency.png">
+    <link rel="stylesheet" href="main.css">
+    <script src="practice.js"></script>
+</head>
+
+<body>
+
+<h1> This is a currency convertor </h1>
+
+<label for="field"> Convert From:</label>
+<input type="text" id="from" name="from" required>
+<br>
+
+<label for="field"> Convert To:</label>
+<input type="text" id="to" name="to" required>
+<br>
+
+<label for="field">Enter amount to convert:</label>
+<input type="text" id="amount" name="amount" required>
+<br>
+<input type="button" id="convertBtn" value="Convert" onclick="converter()">
+<br>            
+<p id="result"></p>
+
+
+</body>
+</html>
